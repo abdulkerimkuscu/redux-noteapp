@@ -1,2 +1,3 @@
 # Redux Note App 
-![](https://user-images.githubusercontent.com/114365301/209701026-80bc8c86-7a36-4bfd-8c93-d7717177dd9a.jpg)
+![image](https://user-images.githubusercontent.com/114365301/209701174-bacf0184-a17b-4385-aa67-4891d6aa694a.png)
+
