@@ -1,38 +1,116 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  margin-bottom: 10px;
+}
+.search{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+}
+.textarea{
+    padding: 15px;
+    width: 500px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    resize: none;
+    outline: none;
+    border-radius: 12px;
+    
+}
+.title{
+  width: 400px;
+  padding: 10px;
+  border: 0.5px solid black;
+  outline: none;
+  border-radius: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.darkorange {
+  background-color: darkorange;
+
+}
+
+.darkorange:hover{
+  border: black solid 2px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.pink:hover{
+  border: black solid 2px;
+}
+
+.burlywood {
+  background-color: burlywood;
+}
+
+.burlywood:hover{
+  border: black solid 2px;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.cadetblue:hover{
+  border: black solid 2px;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+.lightgreen:hover{
+  border: black solid 2px;
+}
+
+
+.notes{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+.note{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  background-color: #F8F9D7;
+  box-shadow: -3px 3px 11px -3px rgba(0,0,0,0.75);
+  margin: 20px 5px;
+  color: #000;
+  position: relative;
+  overflow: auto;
+}
+.delete-note{
+  float: right;
+}
+.add-btn{
+  background-color: #6E85B7;
   color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 15px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-btn:hover{
+  opacity: 0.8;
+  color: #000;
 }
